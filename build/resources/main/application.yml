@@ -1,0 +1,18 @@
+####################################
+# 포트 및 프로젝트 명칭 설정
+####################################
+server:
+  port: 80
+
+spring:
+  application:
+    name: springboot-shop
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+
+  thymeleaf:
+    cache: false
